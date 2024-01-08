@@ -14,13 +14,23 @@ Add/Delete/Update Movies: Admin users can add new movies, delete existing movies
 API Endpoints
 
 GET /movie: Get a list of movies.
+
 GET /movie/{id}: Get detailed information about a specific movie.
+
 GET /movie?genre=Drama: Get a list of movies based on genre.
+
 GET /movie?date=2024-05-10: Get a list of movies based on date.
+
 GET /movie?title=Whiplash: Get a list of movies based on title.
+
 GET /movie?location=Cineplexx: Get a list of movies based on location.
+
 GET /movie/booking/history: Get booking history.
+
 POST /movie: Add a new movie.
+
 POST /movie/booking/{movieId}/{tickets}/{payment}: Create a new booking.
+
 DELETE /movie/{movieId}: Delete a movie.
+
 PUT /movie/{movieId}: Update movie information.
